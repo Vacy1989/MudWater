@@ -1,14 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 .video-section {
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  object-fit: cover;
-  position: relative;
-  z-index: 0;
+  background: blue;
+  width: 100%;
+  height: 100%;
 }
 .video-text {
+  background: green;
   position: absolute;
   top: 0;
   left: 0;
@@ -20,6 +17,12 @@
 }
 .video-button {
   width: 100px;
+}
+
+.video-div {
+  background: yellow;
+  width: 100%;
+  height: 100%;
 }
 
 .mini-img {
