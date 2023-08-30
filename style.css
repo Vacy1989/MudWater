@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 
+body {
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
 .nav {
   display: flex;
   flex-direction: row;
@@ -98,21 +106,28 @@ h2 {
 }
 .mushroom-img {
   width: 100%;
-  height: 35%;
+  height: 45%;
   margin-top: 5%;
   object-fit: cover;
+  position: relative;
+}
+.mushroom-div {
   position: relative;
 }
 .text-1 {
   font-family: "Nanum Myeongjo", serif;
   position: absolute;
-  top: 1450px;
-  color: white;
+
   width: 30%;
-  margin-left: 10%;
+
   background: -webkit-linear-gradient(#cc9900 28%, #ffffff 87%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: rgb(255, 255, 255);
+  left: 10rem;
+  top: 7rem;
+  background-color: rgb(41, 41, 41, 0.8);
+  padding: 0 1rem;
 }
 .selection {
   font-family: "Nanum Myeongjo", serif;
@@ -142,7 +157,11 @@ h2 {
   transition: transform 0.2s;
 }
 .box-img:hover {
-  transform: scale(1.1);
+  transform: scale(0.93);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.9s ease;
+  transition: all 0.8s ease;
 }
 .selection-text {
   font-family: "Nanum Myeongjo", serif;
@@ -201,4 +220,29 @@ h2 {
   font-family: "Nanum Myeongjo", serif;
   width: 30%;
   margin-right: 10%;
+}
+.lists {
+  width: 60%;
+  border-bottom: 1px solid black;
+  padding: 2rem;
+  list-style-type: decimal-leading-zero;
+}
+.list-p {
+  width: 70%;
+}
+.list {
+  display: flex;
+  padding-left: 5%;
+  margin-top: 5%;
+  background-color: tan;
+}
+.list section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.list-img {
+  display: flex;
+  width: 40%;
+  height: 30%;
 }
