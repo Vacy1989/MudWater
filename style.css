@@ -222,19 +222,23 @@ h2 {
   margin-right: 10%;
 }
 .lists {
+  font-family: "Nanum Myeongjo", serif;
   width: 60%;
   border-bottom: 1px solid black;
   padding: 2rem;
   list-style-type: decimal-leading-zero;
 }
 .list-p {
+  font-family: "Nanum Myeongjo", serif;
   width: 70%;
 }
 .list {
+  font-family: "Nanum Myeongjo", serif;
   display: flex;
   padding-left: 5%;
   margin-top: 5%;
   background-color: tan;
+  padding-bottom: 3%;
 }
 .list section {
   display: flex;
@@ -245,4 +249,111 @@ h2 {
   display: flex;
   width: 40%;
   height: 30%;
+}
+
+.choice-of {
+  font-family: "Nanum Myeongjo", serif;
+  margin: 10% 5% 3% 5%;
+  display: flex;
+}
+.choice-of-link {
+  font-family: "Nanum Myeongjo", serif;
+  display: flex;
+  margin-left: 78%;
+}
+.choice-of-link a {
+  font-family: "Nanum Myeongjo", serif;
+  color: black;
+  text-decoration: underline;
+  font-size: 1.1em;
+  display: flex;
+  text-align: center;
+  width: max-content;
+}
+.choice-1 {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 1.9em;
+}
+.choice-2 {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 0.7em;
+  background-color: lightgray;
+  padding: 3%;
+  width: fit-content;
+}
+#boxes-choice {
+  font-family: "Nanum Myeongjo", serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 7%;
+}
+.kit-list {
+  font-family: "Nanum Myeongjo", serif;
+  padding: 1em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.kits {
+  font-family: "Nanum Myeongjo", serif;
+  position: absolute;
+  top: 40px;
+  font-size: 1.1em;
+}
+#images {
+  display: flex;
+  flex-direction: row;
+  object-fit: cover;
+}
+.last-section {
+  background-color: rgba(218, 216, 202);
+}
+.last-1 {
+  font-family: "Nanum Myeongjo", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10%;
+}
+.submit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 25%;
+}
+.submits {
+  background-color: white;
+}
+#email {
+  width: 30%;
+  height: 25%;
+  outline: none;
+  text-align: center;
+}
+#button {
+  width: 10%;
+  height: 25%;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.last-2 {
+  font-family: "Nanum Myeongjo", serif;
+  margin-left: 5%;
+  padding-top: 10%;
+  width: 50%;
+}
+.logo-last {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10% 10% 5% 5%;
 }
