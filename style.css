@@ -367,6 +367,9 @@ h2 {
 }
 .links-all {
   font-family: "Nanum Myeongjo", serif;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
 }
 .links-all a {
   cursor: pointer;
@@ -386,4 +389,24 @@ h2 {
 }
 .ul-link {
   padding: 0;
+}
+.text-last {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.texts {
+  width: 30%;
+}
+.texts a {
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
 }
