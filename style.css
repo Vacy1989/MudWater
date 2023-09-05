@@ -309,6 +309,10 @@ h2 {
   flex-direction: row;
   object-fit: cover;
 }
+.images {
+  width: 360;
+  height: 350;
+}
 .last-section {
   background-color: rgba(218, 216, 202);
 }
@@ -409,4 +413,136 @@ h2 {
   text-decoration: none;
   cursor: pointer;
   color: black;
+}
+/* Mobile View */
+@media screen and (max-width: 500px) {
+  .video-text {
+    width: 100%;
+    font-size: 0.8em;
+  }
+  .p {
+    margin-right: 20%;
+  }
+  .logo {
+    width: 80px;
+    height: 60px;
+  }
+  .mushroom-img {
+    height: 20%;
+  }
+  .text-1 {
+    font-size: 1em;
+    top: 6em;
+    background: -webkit-linear-gradient(#cc9900 78%, #ffffff 38%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    left: 2em;
+  }
+  .selection-text {
+    width: 80%;
+    font-size: 0.8em;
+  }
+  .selection {
+    display: block;
+  }
+  .boxes h3 {
+    padding-top: 2%;
+  }
+  .box-img {
+    width: 125px;
+    height: 100px;
+  }
+  #img-text1 h2 {
+    width: 80%;
+    font-size: 1.8em;
+  }
+  #img-text1 {
+    width: 100%;
+  }
+  #img-text2 {
+    width: 78%;
+    margin-left: 10%;
+  }
+  .img-button {
+    margin-left: 10%;
+  }
+  .img1-text {
+    flex-direction: column;
+  }
+  #img-text3 h2 {
+    width: 80%;
+    font-size: 1.8em;
+  }
+  #img-text2 {
+    width: 78%;
+  }
+  #img-text3 {
+    width: 100%;
+    margin-left: 10%;
+  }
+  .img-button {
+    margin-left: 10%;
+  }
+  .img2-text {
+    flex-direction: column;
+  }
+  #img-text4 {
+    width: 78%;
+    margin-left: 10%;
+  }
+  .lists {
+    width: 80%;
+  }
+  .list-img {
+    display: none;
+  }
+  .choice-2 {
+    display: none;
+  }
+  .choice-of {
+    flex-direction: column;
+    margin-left: 10%;
+  }
+  .choice-of-link {
+    margin: 0;
+  }
+  #boxes-choice {
+    display: block;
+  }
+
+  .images {
+    width: 200;
+    height: 100;
+    object-fit: fill;
+  }
+  #email {
+    width: 50%;
+  }
+  #button {
+    width: 20%;
+  }
+  .last-2 {
+    width: 100%;
+  }
+  .logo-last {
+    margin-top: 15%;
+  }
+  .logo-end {
+    width: 80;
+    height: 50;
+  }
+  #links-last {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .links-all {
+    width: 80%;
+  }
+  .text-last {
+    flex-direction: column;
+  }
+  .texts {
+    width: 80%;
+    font-size: 0.7em;
+  }
 }
