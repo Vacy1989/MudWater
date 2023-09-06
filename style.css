@@ -709,3 +709,11 @@ h2 {
     margin-left: 10%;
   }
 }
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+    .video-text {
+        font-size: 1.2em;
+        width: 60%;
+      }
+      .p {
+        font-size: 0.7em;
+}
